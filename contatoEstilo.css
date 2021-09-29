@@ -1,0 +1,110 @@
+@font-face {
+    font-family: preto;
+    src: url(fontes/Poppins-Light.ttf)
+}
+
+@font-face {
+    font-family: manics;
+    src: url(fontes/Poppins-Black.ttf)
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+header{
+    padding-top: 145px;
+    background-color:rgb(0, 1, 80);
+    margin: -8px;
+}
+
+#img1{
+    width: 130px;
+    position:absolute;
+    top: 5px;
+}
+
+
+#caixas{
+    background-color: aquamarine;
+    font-family: manics,sans-serif;
+    margin: -8px;
+    font-size: 40px;
+    text-align: center;
+    top: 100px;
+}
+
+
+#ctt{
+    text-align: center;
+}
+
+#cttemail{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    background-color:rgb(0, 1, 80);
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 750px;
+
+}
+
+h2{
+    font-size: 40px;
+    background-color:rgb(0, 1, 80);
+    color: white;
+    position: absolute;
+    top: 1px;
+    margin-top: 27px;
+    left: 990px;
+
+
+}
+
+h4{
+    
+    font-size: 40px;
+    background-color:rgb(0, 1, 80);
+    color: white;
+    position: absolute;
+    top: 1px;
+    margin-top: 27px;
+    right: 640px;
+
+
+}
+
+#caixas{
+    background-image: url(imagens/bg_tec_01_desktop.png);
+    
+}
+    
+#botaoenviar{
+    width: 220px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0098d9;
+    color: #fff;
+}
+
+#botao{
+    
+    display: block;
+    border-radius: 15px;
+    border: solid 1px #fff;
+    height: 28px;
+    min-width: 300px;
+    margin-bottom: 10px;
+    padding: 0 25px;
+    text-align: center;
+    background: 0 0;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+
+}
